@@ -26,7 +26,7 @@
     box-sizing: border-box; /* Inclui borda e padding no cálculo do tamanho */
 }
 
-bodi { /* Estiliza o corpo da página */
+body { /* Estiliza o corpo da página */
     font-family: sans-serif; /* Define a fonte padrão */
     background-image: var(--bgGradient); /* Aplica o gradiente dinâmico */
     color: var(--fontColor1); /* Aplica a cor de texto padrão */
@@ -36,7 +36,7 @@ bodi { /* Estiliza o corpo da página */
     width: 100%; /* Ocupa toda a largura disponível */
 }
 
-.topo { /* Estiliza o cabeçalho */
+#topo { /* Estiliza o cabeçalho */
     background-color: var(--menuColor); /* Cor de fundo dinâmica do menu */
     display: flex; /* Ativa o modelo flexbox */
     align-items: center; /* Alinha os itens verticalmente ao centro */
@@ -101,7 +101,7 @@ bodi { /* Estiliza o corpo da página */
     margin: 0; /* Remove margens */
 }
 
-#cardis { /* Container da seção de cards */
+#cards{ /* Container da seção de cards */
     width: 90%; /* Largura de 90% da tela */
     display: flex; /* Ativa flexbox */
     justify-content: center; /* Centraliza os cards */
@@ -170,7 +170,7 @@ bodi { /* Estiliza o corpo da página */
     margin-bottom: 10px; /* Margem inferior */
 }
 
-foter { /* Rodapé da página */
+footer { /* Rodapé da página */
     text-align: center; /* Centraliza o texto */
     padding: 20px; /* Espaçamento interno */
     margin-top: 20%; /* Distância grande do topo */
